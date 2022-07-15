@@ -1,17 +1,19 @@
 ﻿using System;
+
 namespace CarLotSimulator
 {
     public class Car
-    {
+    {    
         public Car()
         {
-    
+            CarLot.numberOfCars++;
         }
 
         public Car(string make, string model)
         {
             Make = make;
-            Model = model; 
+            Model = model;
+            CarLot.numberOfCars++;
         }
 
         //Properties

@@ -21,10 +21,13 @@ namespace CarLotSimulator
             var thisIsCarLot = new CarLot();
 
 
+            Console.WriteLine(CarLot.numberOfCars);
+
             var Car1 = new Car();
             var Car2 = new Car();
             var Car3 = new Car();
 
+            Console.WriteLine(CarLot.numberOfCars);
 
             Car1.Year = 1998;
             Car1.Make = "Ford";
@@ -69,11 +72,12 @@ namespace CarLotSimulator
                 IsDriveable = true
             };
 
+            Console.WriteLine(CarLot.numberOfCars);
 
             var Car5 = new Car("Mercedes", "C Class");
 
 
-
+            Console.WriteLine(CarLot.numberOfCars);
 
             //*************BONUS X 2*************//
 
